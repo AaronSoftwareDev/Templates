@@ -1,0 +1,381 @@
+.w-layout-grid {
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+.header-section {
+  height: 100vh;
+}
+
+.navbar {
+  z-index: 100;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4));
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+}
+
+.slider {
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/david-holifield-kPxsqUGneXQ-unsplash.jpg');
+  background-position: 0 0, 50%;
+  background-size: auto, cover;
+}
+
+.header-text {
+  height: 100%;
+  color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.header-text.remove {
+  display: none;
+}
+
+.container {
+  color: #fff;
+}
+
+.about-inner {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.right-div {
+  width: 50vw;
+}
+
+.left-div {
+  width: 50vw;
+  padding-left: 40px;
+  padding-right: 0;
+}
+
+.products {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.grid {
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 40px;
+}
+
+.prices {
+  background-color: #2e2e2e;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer {
+  height: 50px;
+  background-color: #2e2e2e;
+}
+
+.left-menu, .right-menu {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.contact-left {
+  width: 50vw;
+}
+
+.contact-right {
+  width: 50vw;
+  padding-left: 20px;
+}
+
+.paragraph {
+  width: 60%;
+  text-align: center;
+  margin-top: 2%;
+  font-family: Lato, sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.heading {
+  font-family: Montserrat, sans-serif;
+  font-size: 88px;
+  font-weight: 400;
+  line-height: 49px;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: tomato;
+}
+
+.nav-link-2 {
+  color: #fff;
+}
+
+.nav-link-2:hover {
+  color: tomato;
+}
+
+.nav-link-3 {
+  color: #fff;
+}
+
+.nav-link-3:hover {
+  color: tomato;
+}
+
+.left-arrow, .icon {
+  color: #452a00;
+}
+
+.slide-nav {
+  color: #452a00;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.heading-2 {
+  color: tomato;
+}
+
+.paragraph-2 {
+  width: 90%;
+  height: 100%;
+  text-align: left;
+  margin-top: 10%;
+  font-family: Lato, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.image {
+  width: 100%;
+}
+
+.heading-3 {
+  color: tomato;
+  font-family: Montserrat, sans-serif;
+  font-size: 58px;
+}
+
+.product {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.paragraph-3, .paragraph-4, .paragraph-5, .paragraph-6, .paragraph-7, .paragraph-8 {
+  display: none;
+}
+
+.div-block {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.div-block-2 {
+  width: 50%;
+  color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.div-block-3 {
+  background-color: #452a00;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.paragraph-9 {
+  text-align: center;
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 35px;
+}
+
+.heading-4 {
+  margin-bottom: 5px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+}
+
+.paragraph-10 {
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+}
+
+.prices-paragraphs {
+  color: #fff;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+}
+
+.div-block-4 {
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.paragraph-11 {
+  color: #452a00;
+  padding-left: 20px;
+}
+
+.heading-5 {
+  color: tomato;
+  padding-left: 20px;
+}
+
+.submit-button {
+  background-color: #452a00;
+  border-radius: 20px;
+}
+
+.div-block-5 {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.text-block {
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+}
+
+.heading-6 {
+  color: tomato;
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 20px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+}
+
+.text-field {
+  height: 67px;
+  border: 1px solid #452a00;
+}
+
+.text-field-2 {
+  border: 1px solid #452a00;
+}
+
+.heading-7, .heading-8 {
+  color: tomato;
+  font-size: 20px;
+}
+
+.price-pragraph {
+  color: #fff;
+}
+
+.heading-9, .heading-10, .heading-11, .heading-12, .heading-13, .heading-14, .heading-15, .heading-16, .heading-17, .heading-18 {
+  color: tomato;
+  font-size: 20px;
+}
+
+.paragraph-13 {
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .paragraph {
+    line-height: 31px;
+  }
+
+  .heading {
+    font-size: 78px;
+  }
+
+  .heading-3 {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .about-inner {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .left-div {
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+  }
+
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-left, .contact-right {
+    width: 95vw;
+  }
+
+  .heading {
+    font-size: 48px;
+  }
+
+  .heading-2 {
+    margin-top: 6px;
+    font-size: 29px;
+  }
+
+  .paragraph-2 {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 16px;
+  }
+
+  .heading-3 {
+    font-size: 28px;
+  }
+
+  .product {
+    height: 150px;
+  }
+
+  .heading-4 {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .div-block-4 {
+    flex-direction: column;
+  }
+}
+
+#w-node-_6c443c35-070d-edb7-2101-a04c7af661ef-43022018, #w-node-ef087d9b-e44f-9900-04a2-8ac70c65d41b-43022018, #w-node-_62aed970-f06b-2fc1-ddf9-b85d3561cee1-43022018, #w-node-_1720b020-51eb-dadf-cf61-6b9ef215ebf7-43022018, #w-node-b0db47fd-c877-616f-f3f1-9432f0bd9ee2-43022018, #w-node-de11c32e-bcc8-489d-e122-a6f08e7cf4af-43022018 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
